@@ -1,0 +1,22 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+# Without user and property links
+first:
+  user_id: nil
+  property_id: nil
+  required_forms: 'BofA Lien Release'
+  other_notes: 'Some other note'
+
+# With user and property links
+second:
+  user_id: 1
+  user_id: 1
+  required_forms: 'BofA Lien Release; BofA Bid Form'
+  other_notes: 'Some other note'
